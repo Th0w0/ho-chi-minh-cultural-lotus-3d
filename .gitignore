@@ -1,0 +1,11 @@
+# Local server / editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache, if a local helper/server creates any
+__pycache__/
+*.pyc
+
+# Logs
+*.log
