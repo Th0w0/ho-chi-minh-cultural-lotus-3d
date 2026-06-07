@@ -24,6 +24,28 @@ http://127.0.0.1:8000/mohinh_cinematic.html
 
 Không nên mở trực tiếp bằng double-click hoặc đường dẫn `file://`, vì trang dùng ES module và import Three.js từ thư mục `vendor/`.
 
+## Hình ảnh demo
+
+![Tổng quan bố cục cánh sen](demo/overview-lotus-layout.png)
+
+*Tổng quan bố cục 5 cung triển lãm theo hình cánh sen, xoay quanh không gian trung tâm.*
+
+![Góc nhìn điện ảnh toàn cảnh](demo/cinematic-overview.png)
+
+*Góc nhìn điện ảnh toàn cảnh, nhấn mạnh ánh sáng sân khấu, chất liệu kính và vòng chuyển động của bảo tàng số.*
+
+![Cung 2: Bốn trụ cột xây dựng quốc gia](demo/zone-2-national-pillars.png)
+
+*Cung 2 thể hiện bốn trụ cột chính trị, kinh tế, xã hội và văn hóa trong quá trình xây dựng quốc gia.*
+
+![Cung 4: Cây điều ước và thế hệ trẻ](demo/zone-4-wish-tree.png)
+
+*Cung 4 dùng hình ảnh cây phát sáng để biểu đạt niềm tin, ước mơ và trách nhiệm tiếp nối của thế hệ trẻ.*
+
+![Cung 5: Dòng thời gian vận dụng văn hóa](demo/zone-5-cultural-timeline.png)
+
+*Cung 5 trực quan hóa các mốc văn kiện và sự vận dụng tư tưởng Hồ Chí Minh về văn hóa trong thực tiễn.*
+
 ## Cấu trúc file cần thiết
 
 ```text
@@ -31,7 +53,12 @@ LSD/
 +-- README.md
 +-- mohinh_cinematic.html
 +-- president_ho_chi_minh_statue.glb
-+-- bac_ho.jpg
++-- demo/
+|   +-- cinematic-overview.png
+|   +-- overview-lotus-layout.png
+|   +-- zone-2-national-pillars.png
+|   +-- zone-4-wish-tree.png
+|   +-- zone-5-cultural-timeline.png
 +-- vendor/
     +-- three.module.js
     +-- OrbitControls.js
